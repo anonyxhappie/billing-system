@@ -1,0 +1,92 @@
+p, h1, h3{
+  line-height: 0.2;
+}
+h1{
+  margin-top: 20px; 
+}
+#add{
+  line-height: 0;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+#note{
+  float: right;
+  margin-right: 10px;
+  margin-top: 25px;
+  display: inline-block;
+  width: auto;
+  font-size: small;
+}
+#idetail{
+  display: inline-block;
+  width: auto;
+}
+table{
+  border-collapse: collapse;
+}
+th, td{
+  padding:3px 25px;
+}
+
+tr:first-child{
+  font-weight: bold;
+}
+
+tr:last-child{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tr:last-child > td{
+  padding: 15px;
+  border-top: 1px solid gray;
+}
+
+tr:nth-last-child(4){
+  font-weight: bold;
+}
+#main{
+}
+
+#sign{
+  float: right;
+  font-size: small;
+}
+
+#csign{
+  font-size: small;
+}
+
+#inv{
+  margin-left: 280px;
+  font-size: small;
+}
+
+#kgp{
+  margin-left: 150px;
+  font-size: small;
+}
+.line{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#footer{
+  width: 100%;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+}
+
+.address{
+  text-align: center;
+}
+
+.address > span{
+  position: fixed;
+  right: 5px;
+}

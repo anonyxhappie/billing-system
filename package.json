@@ -1,0 +1,14 @@
+{
+  "name": "kgpoint",
+  "version": "1.0.0",
+  "description": "A Billing System Software For K.G.Point",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Akshay Saini - anonyxhappie",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.6"
+  }
+}

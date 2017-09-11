@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<title>K.G.POINT - Billing System</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<center>
+	<div class="jumbotron" id="header">
+		<h1>K.G.POINT - Billing System</h1>
+	</div>
+	<div class="jumbotron jumbotron-fluid" id="content">
+		<input type="text" id="cname" class="col-sm-2 form-control" placeholder="Customer Name"><br/><br>  
+		<table id="myTable">
+			<tr>
+				<th>Sr.No.</th>
+				<th>Item</th>
+				<th>Quantity</th>
+				<th>Price</th>
+			</tr>	
+
+		</table><br />
+		<button onclick="addItem()" class="btn btn-primary">Add Item</button><br /><br />	
+		<b><span>Total Balance : ₹</span><span id="total">0</span><span>/-</span></b><br /><br />
+		<button onclick="calculate()" class="btn btn-success">Calculate</button><button onclick="window.location.reload(true)" class="btn btn-danger">Reset</button>
+		<button onclick="generateBill()" class="btn btn-dark">Generate Bill</button>
+	</div>
+</center>
+<footer title="Akshay Saini&#xA;anonyxhappie.github.io&#xA;+91-9872472565">Developed By - @anonyxhappie</footer>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+<script>
+	require('./renderer.js');
+</script>
+</html>

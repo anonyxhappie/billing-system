@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0;../index.html">
+  <link rel="stylesheet" type="text/css" href="../css/invoice.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+</head>
+<body><center>
+<h1>K. G. POINT</h1>
+<p class="italic" id="add">Wholeseller, Retailor of - School Uniform & Readymade Cloth</p>
+<br />  
+<h3>Tax Invoice</h3>
+<hr></center>
+<div id="main">
+  <div id="idetail">
+    <p><span class="bold">Invoice Number : </span><span id="in"></span></p>
+    <p><span class="bold">PAN : </span><span id="pan">BPAPS4759C</span></p>
+    <p><span class="bold">GSTIN : </span><span id="gstin">08BPAPS4759C1ZR</span></p>
+    <p><span class="bold">Customer Name : </span><span id="cname"><script type="text/javascript">document.write(localStorage["cname"]);</script></span></p>
+    <p><span class="bold">Invoice Date : </span><span id="idate"><script type="text/javascript">document.write(new Date());</script></span></p>
+  </div>
+  <div id="note" class="italic"><p>*Keep this invoice </p><p>for future references*</p></div>
+</div>
+<div id="itable">
+<hr>
+<table>
+<tr><td>PARTICULARS</td><td></td><td></td><td></td><td>Price(₹)</td><td>Qty</td><td>Amount(₹)</td></tr>
+<script type="text/javascript" src="../js/invoice.js"></script>
+</table>
+<hr>
+<span class="italic" id="inv">*This is computer generated invoice.</span><span class="bold" id="kgp">K.G.POINT : </span>
+<br/><br/><br/><br/>
+<span id="csign">(Customer Signature)</span><span id="sign">(Authorized Signatory)</span>
+
+</div>
+<div id="footer">
+  <p>Note: 1. All Subject to Kuchaman City Jurisdiction.</p>
+  <p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;2. Goods Sold will Not be taken back. E.& O.E.</p>
+  <hr>
+    <p class="address">#11 Shop No., Sharda Complex, 1<sup>st</sup> Floor, Near Bus Stand</p>
+    <p class="address">Kuchaman City, Distt. Nagaur (Raj.)<span>Mob. 9610021678</span></p>
+  <hr>
+</div>
+
+<script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  window.print();
+</script>
+</body>
+</html>
