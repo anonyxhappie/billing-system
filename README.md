@@ -22,19 +22,19 @@ Download the zip, extract and execute the binary file `kgpoint.exe`
 
 * 1. Home
 
-[!Screenshot](raw/kgp1.png)
+![kgp1](https://user-images.githubusercontent.com/9645332/30283419-b594fa00-9735-11e7-8c0e-12f1da12e557.png)
 
 * 2. Validation
 
-[!Screenshot](raw/kgp2.png)
+![kgp2](https://user-images.githubusercontent.com/9645332/30283420-b5a41fee-9735-11e7-9ed7-7341616538ab.png)
 
 * 3. Options to Print
 
-[!Screenshot](raw/kgp3.png)
+![kgp3](https://user-images.githubusercontent.com/9645332/30283421-b5ad3f0c-9735-11e7-95e1-29d031a60c96.png)
 
 * 4. Generated Bill (pdf)
 
-[!Screenshot](raw/kgp4.png)
+![kgp4](https://user-images.githubusercontent.com/9645332/30283422-b5b32994-9735-11e7-811f-ed07d590006b.png)
 
 ## Authors
 
