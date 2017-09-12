@@ -49,5 +49,5 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 - see th
 ## Willing To Contribute ?
 
 * Most Welcomed
-* Would like to interact - [Mail Here](akkilsl522@gmail.com)
+* Would like to interact - [Drop a Mail](mailto:akkilsl522@gmail.com)
 * Thanks in advance
