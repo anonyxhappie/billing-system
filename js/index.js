@@ -1,3 +1,5 @@
+
+
 function validateCname() {
     var val = document.getElementById('cname').value;
     if (!val.match(/^[a-zA-Z ]+$/)) {
@@ -11,6 +13,7 @@ var rowCount = 1;
 var totalBalance = 0;
 function calculate() {
 	localStorage["cname"] = document.getElementById('cname').value;
+	localStorage["discountid"] = document.getElementById('etdiscount').value;
 	var total, totals = 0, price, quantity;	
 	for (var i = 1; i < rowCount; i++) {
 			price = document.getElementById('p' + i).value;
@@ -63,6 +66,30 @@ function generateBill(){
 			location.href='raw/invoice.html';	
 		}	
 	}else{
-		        alert('Sorry! Only alphabets(a-zA-Z) are allowed in Customer Name Field.');
+		alert('Sorry! Only alphabets(a-zA-Z) are allowed in Customer Name Field.');
 	}
+}
+
+window.onload = function(){
+
+	localStorage['isDiscount'] = 'false';
+	var dyes = document.getElementById('dyes');
+	var dno = document.getElementById('dno');
+	
+	dyes.onclick = handle;
+	dno.onclick = handle;
+}
+
+function handle(){
+	var dyes = document.getElementById('dyes').checked;
+	var d = document.getElementById('etdiscount');
+	 
+	if (dyes) {
+		d.style.display="block";
+		localStorage['isDiscount'] = 'true';
+	}else{
+		d.style.display="none";
+		localStorage['isDiscount'] = 'false';
+	}
+
 }

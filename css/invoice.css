@@ -46,9 +46,14 @@ tr:last-child > td{
   border-top: 1px solid gray;
 }
 
-tr:nth-last-child(4){
+#total, #gtotal, #dis{
   font-weight: bold;
 }
+
+#gtotal {
+  border-top: 1px solid gray;
+}
+
 #main{
 }
 

@@ -23,7 +23,9 @@
 
 		</table><br />
 		<button onclick="addItem()" class="btn btn-primary">Add Item</button><br /><br />	
-		<b><span>Total Balance : ₹</span><span id="total">0</span><span>/-</span></b><br /><br />
+		<b><span>Total Balance : ₹</span><span id="total">0</span><span>/-</span></b><br />
+		<span>Discount : </span><input type="radio" name="discount" id="dyes"> Yes <input type="radio" name="discount" id="dno" checked="checked"> No <br /><br />
+		<input type="number" class="col-sm-1 form-control" id="etdiscount" placeholder="%" style="display:none" value="5"><br />
 		<button onclick="calculate()" class="btn btn-success">Calculate</button><button onclick="window.location.reload(true)" class="btn btn-danger">Reset</button>
 		<button onclick="generateBill()" class="btn btn-dark">Generate Bill</button>
 	</div>
